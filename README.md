@@ -6,6 +6,8 @@ ___
 
 First, download and install [BepInEx 6.0.0BE](https://builds.bepis.io/projects/bepinex_be) to your ULTRAKILL game directory for your platform (WINE/Proton is still Windows!).
 
+(Note: Downloads are shown when you click on a build artifact, I used `404`.)
+
 Instructions for installation are on the [BepInEx website](https://docs.bepinex.dev/master/articles/user_guide/installation/index.html).
 
 Next, run the game once to generate the BepInEx/plugins folder, close the game, then copy the `UltrakillSpeedometer.dll` you downloaded from Releases into it.
