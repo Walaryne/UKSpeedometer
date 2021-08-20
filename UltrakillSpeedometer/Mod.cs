@@ -42,14 +42,48 @@ namespace UltrakillSpeedometer {
             {
                 GameObject hpText = GameObject.Find("FirstRoom/Player/Main Camera/HUD Camera/HUD/GunCanvas/StatsPanel/Filler/Panel (2)/Filler/HP Text");
                 speedometer = Instantiate(hpText, hpText.transform);
-                Vector3 loc = speedometer.transform.localPosition;
-
-                speedometer.transform.localPosition = new Vector3(0.34f, -41, loc.z);
-
+                speedometer.transform.localPosition = new Vector3(0.34f, -200, speedometer.transform.localPosition.z);
+                
                 speedometerText = speedometer.GetComponent<Text>();
                 speedometerText.text = "";
                 
                 speedometer.SetActive(true);
+            }
+        }
+
+        /*[HarmonyPatch]
+        public class RailcannonStatusRPatch
+        {
+            [HarmonyReversePatch]
+            [HarmonyPatch(typeof(RailcannonMeter), "RailcannonStatus")]
+            public static bool RailcannonStatusR()
+            {
+                return false;
+            }
+        }*/
+
+        [HarmonyPatch(typeof(RailcannonMeter), "CheckStatus")]
+        internal class RailcannonMeterPatcher
+        {
+            [UsedImplicitly]
+            [HarmonyPostfix]
+            private static void PatchCheckStatus(RailcannonMeter __instance)
+            {
+                GameObject statsPanel = GameObject.Find("FirstRoom/Player/Main Camera/HUD Camera/HUD/GunCanvas/StatsPanel");
+                    
+                Vector3 sloc = speedometer.transform.localPosition;
+                Vector3 sploc = statsPanel.transform.localPosition;
+                    
+                if (__instance.miniVersion.activeSelf)
+                {
+                    speedometer.transform.localPosition = new Vector3(0.34f, -55, sloc.z);
+                    statsPanel.transform.localPosition = new Vector3(sploc.x, -200, sploc.z);
+                }
+                else
+                {
+                    speedometer.transform.localPosition = new Vector3(0.34f, -41, sloc.z);
+                    statsPanel.transform.localPosition = new Vector3(sploc.x, -248, sploc.z);
+                }
             }
         }
     }

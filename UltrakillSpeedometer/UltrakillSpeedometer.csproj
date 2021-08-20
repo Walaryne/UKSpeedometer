@@ -36,7 +36,7 @@
           <HintPath>..\..\..\sourcecode\csharp\UltrakillMod\Libs\0Harmony.dll</HintPath>
         </Reference>
         <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-          <HintPath>..\..\..\sourcecode\csharp\UltrakillMod\Libs\Assembly-CSharp.dll</HintPath>
+          <HintPath>..\..\..\Downloads\UltrakillStuff\AssemblyPublicizer\Assembly-CSharp.dll</HintPath>
         </Reference>
         <Reference Include="BepInEx.Core, Version=6.0.0.404, Culture=neutral, PublicKeyToken=null">
           <HintPath>..\..\..\sourcecode\csharp\UltrakillMod\Libs\BepInEx.Core.dll</HintPath>
