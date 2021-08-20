@@ -1,0 +1,23 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fhome_002Fwalaryne_002FDownloads_002FUltrakillStuff_002Fmonomod_002FMMHOOK_005FAssembly_002DCSharp_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fhome_002Fwalaryne_002FDownloads_002FUltrakillStuff_002Fmonomod_002FMMHOOK_005FAssembly_002DCSharp_005Fpublicized_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fhome_002Fwalaryne_002Fsourcecode_002Fcsharp_002FUltrakillMod_002FLibs_002F0Harmony_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fhome_002Fwalaryne_002Fsourcecode_002Fcsharp_002FUltrakillMod_002FLibs_002FAssembly_002DCSharp_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fhome_002Fwalaryne_002Fsourcecode_002Fcsharp_002FUltrakillMod_002FLibs_002FBepInEx_002ECore_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fhome_002Fwalaryne_002Fsourcecode_002Fcsharp_002FUltrakillMod_002FLibs_002FBepInEx_002EPreloader_002ECore_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fhome_002Fwalaryne_002Fsourcecode_002Fcsharp_002FUltrakillMod_002FLibs_002FBepInEx_002EPreloader_002EUnity_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fhome_002Fwalaryne_002Fsourcecode_002Fcsharp_002FUltrakillMod_002FLibs_002FBepInEx_002EUnity_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fhome_002Fwalaryne_002Fsourcecode_002Fcsharp_002FUltrakillMod_002FLibs_002FMonoMod_002ERuntimeDetour_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fhome_002Fwalaryne_002Fsourcecode_002Fcsharp_002FUltrakillMod_002FLibs_002FMonoMod_002EUtils_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fhome_002Fwalaryne_002Fsourcecode_002Fcsharp_002FUltrakillMod_002FLibs_002FUnityEngine_002ECoreModule_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fhome_002Fwalaryne_002F_002Esteam_002Fsteam_002Fsteamapps_002Fcommon_002FULTRAKILL_002FBepInEx_002Fcore_002FMono_002ECecil_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fhome_002Fwalaryne_002F_002Esteam_002Fsteam_002Fsteamapps_002Fcommon_002FULTRAKILL_002FULTRAKILL_005FData_002FManaged_002FUnityEngine_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fhome_002Fwalaryne_002F_002Esteam_002Fsteam_002Fsteamapps_002Fcommon_002FULTRAKILL_002FULTRAKILL_005FData_002FManaged_002FUnityEngine_002EIMGUIModule_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fhome_002Fwalaryne_002F_002Esteam_002Fsteam_002Fsteamapps_002Fcommon_002FULTRAKILL_002FULTRAKILL_005FData_002FManaged_002FUnityEngine_002EPhysicsModule_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fhome_002Fwalaryne_002F_002Esteam_002Fsteam_002Fsteamapps_002Fcommon_002FULTRAKILL_002FULTRAKILL_005FData_002FManaged_002FUnityEngine_002EUI_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;
+  &lt;Assembly Path="/home/walaryne/sourcecode/csharp/UltrakillMod/Libs/UnityEngine.CoreModule.dll" /&gt;
+  &lt;Assembly Path="/home/walaryne/sourcecode/csharp/UltrakillMod/Libs/Assembly-CSharp.dll" /&gt;
+  &lt;Assembly Path="/home/walaryne/Downloads/UltrakillStuff/monomod/MMHOOK_Assembly-CSharp_publicized.dll" /&gt;
+  &lt;Assembly Path="/home/walaryne/.steam/steam/steamapps/common/ULTRAKILL/ULTRAKILL_Data/Managed/UnityEngine.UI.dll" /&gt;
+&lt;/AssemblyExplorer&gt;</s:String></wpf:ResourceDictionary>
