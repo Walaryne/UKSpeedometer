@@ -40,7 +40,7 @@ namespace UltrakillSpeedometer {
             [HarmonyPostfix]
             private static void PatchStart()
             {
-                GameObject hpText = GameObject.Find("FirstRoom/Player/Main Camera/HUD Camera/HUD/GunCanvas/StatsPanel/Filler/Panel (2)/Filler/HP Text");
+                GameObject hpText = GameObject.Find("HP Text");
                 speedometer = Instantiate(hpText, hpText.transform);
                 speedometer.transform.localPosition = new Vector3(0.34f, -200, speedometer.transform.localPosition.z);
                 
@@ -69,7 +69,7 @@ namespace UltrakillSpeedometer {
             [HarmonyPostfix]
             private static void PatchCheckStatus(RailcannonMeter __instance)
             {
-                GameObject statsPanel = GameObject.Find("FirstRoom/Player/Main Camera/HUD Camera/HUD/GunCanvas/StatsPanel");
+                GameObject statsPanel = GameObject.Find("StatsPanel");
                     
                 Vector3 sloc = speedometer.transform.localPosition;
                 Vector3 sploc = statsPanel.transform.localPosition;
